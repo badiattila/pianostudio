@@ -18,6 +18,18 @@ body {
     margin-bottom: 0px;
 }
 
+#services {
+    background-attachment: fixed;
+    background-image: url('../image/compose-entertainment-music-14548.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 0px;
+}
+
 .op {
     opacity: 0.8;
     filter: alpha(opacity=80);
@@ -75,4 +87,11 @@ body {
     opacity: 0.9;
     filter: alpha(opacity=90);
     /* For IE8 and earlier */
+}
+
+.right-teaser {
+	padding: 1px;
+	border: 1px solid #4c0303;
+	float: right;
+	margin: 0 0 1em 1em;
 }
