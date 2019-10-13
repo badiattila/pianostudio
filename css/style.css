@@ -26,4 +26,53 @@ body {
     padding: 35px;
 }
 
+.navbar-phone-icon {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-color: #fff;
+    /* For IE8 and earlier */
+    padding: 15px;
+    border-radius: 50%;
+}
 
+.navbar-phone-icon:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    background-color: #fff;
+    /* For IE8 and earlier */
+}
+
+.navbar-logo {
+    width: 100px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-color: #fff;
+    /* For IE8 and earlier */
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.navbar-logo:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    background-color: #fff;
+    /* For IE8 and earlier */
+}
+
+.bg-dark {
+    background-color: #4c0303!important;
+}
+
+.btn-secondary {
+    background-color: #4c0303;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+.btn-secondary:hover {
+    background-color: #4c0303;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    /* For IE8 and earlier */
+}
