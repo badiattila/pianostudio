@@ -1,11 +1,10 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
-
+/* Move down content because we have a fixed navbar that is 100px tall */
 body {
     padding-top: 100px;
     color: #4c0303;
-
 }
 
+/* Define a 110px block to enable internal links positioning */
 h2::before { 
   display: block; 
   content: " "; 
@@ -15,6 +14,7 @@ h2::before {
   pointer-events: none;
 }
 
+/* ID based background behaviour */
 #intro {
     background-attachment: scroll;
     background-image: url('../image/4k-wallpaper-close-up-fingers-1246437.jpg');
@@ -63,6 +63,7 @@ h2::before {
     margin-bottom: 0px;
 }
 
+/* Opacity classes for different elements */
 .op {
     opacity: 0.8;
     filter: alpha(opacity=80);
@@ -71,6 +72,7 @@ h2::before {
     padding: 35px;
 }
 
+/* Phone icon hover changes opacity */
 .navbar-phone-icon {
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -87,6 +89,7 @@ h2::before {
     /* For IE8 and earlier */
 }
 
+/* Logo changes opacity on hover */
 .navbar-logo {
     width: 100px;
     opacity: 0.6;
@@ -104,10 +107,12 @@ h2::before {
     /* For IE8 and earlier */
 }
 
+/* Redefining Bootstrap bg-dark background color */
 .bg-dark {
     background-color: #4c0303!important;
 }
 
+/* Redefining Bootstrap btn-secondary background color and opacity */
 .btn-secondary {
     background-color: #4c0303;
     opacity: 0.6;
@@ -122,6 +127,7 @@ h2::before {
     /* For IE8 and earlier */
 }
 
+/* Picture formatting for gallery and teaser pictures */
 .right-teaser {
 	padding: 1px;
 	border: 1px solid #4c0303;
