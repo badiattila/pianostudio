@@ -1,4 +1,4 @@
-# Piano Studio Kft. - Introduction of Hungarian piano company  
+# Piano Studio Kft. - Introduction of a Hungarian piano company  
 This web page is made for Code Institute's Stream One Project: User-Centric Frontend Development
 
 This page is ment to introduce Piano Studio Kft, a Hungarian family owned and operated pianos business.
@@ -29,19 +29,20 @@ This site uses the native features of Bootstrap and Jumbotron Framework.
 
 
 ### Features Left to Implement
-The contact form will have to be better implemented, will need both visual/text and functionality improvements. 
+The newsletter form will have to be better implemented, will need both visual/text and functionality improvements. 
 I might also include a dinamic section for piano renters to track their profile (piano rented and account status)
 
 ## Testing
-The renter user story achieved the intended outcome of providing them with a showcase of available pianos to rent.
-The buyer user story is satisfied by having the section Pianos to Sell with the pianos and prices on display.
+The renter user story achieved the intended outcome of introducing the service and the gallery is providing customers with a showcase of available pianos to rent.
+The buyer user story is satisfied by having the section Pianos to Sell.
 The customer for services user story has the services section with piano tuning and restoration.
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
-Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
-If a customer is interested in contacting the company, they will have to fill out all fields in order for the form to go through.
+Furthermore, the 'required' attribute is added to the First Name, Last Name and Email fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 
 All links will open in a new tab using 'target="_blank"'.
+
+Social media links are tested and work as intended to both facebook and instagram.
 
 This site was tested across multiple browsers (Chrome, Internet Explorer, FireFox) and on mobile devices (iPhone 6 and Huawei P10) to ensure compatibility and responsiveness. 
 
@@ -58,8 +59,8 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 All content in this site were written by me. 
 
 ### Media
-Some photos were taken from [Pexels](https://www.pexels.com/), a stock image library.
-Most pictures used (pianos owned and for sale sections and introduction) are taken by the owners and workers of Piano Studio Kft. 
+Background photos were taken from [Pexels](https://www.pexels.com/), a stock image library.
+Pictures used (pianos owned and for sale sections and introduction) are taken by the owners and workers of Piano Studio Kft. 
 
 ### Acknowledgements
 Color schemes are inspired by an article found https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/
