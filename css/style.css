@@ -95,3 +95,16 @@ body {
 	float: right;
 	margin: 0 0 1em 1em;
 }
+
+.sample-pic {
+	padding: 1px;
+	border: 1px solid #4c0303;
+	margin: 1em 1em;
+}
+
+.life-pic {
+    width: 150px;
+	padding: 1px;
+	border: 1px solid #4c0303;
+	margin: 1em 1em;
+}
