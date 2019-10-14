@@ -9,8 +9,8 @@ body {
 h2::before { 
   display: block; 
   content: " "; 
-  margin-top: -3.5rem; 
-  height: 3.5rem; 
+  margin-top: -110px; 
+  height: 110px; 
   visibility: hidden; 
   pointer-events: none;
 }
