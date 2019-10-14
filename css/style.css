@@ -16,7 +16,7 @@ h2::before {
 }
 
 #intro {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url('../image/4k-wallpaper-close-up-fingers-1246437.jpg');
     background-position: center;
     background-size: cover;
