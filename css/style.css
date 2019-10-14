@@ -6,6 +6,15 @@ body {
 
 }
 
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -3.5rem; 
+  height: 3.5rem; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 #intro {
     background-attachment: fixed;
     background-image: url('../image/4k-wallpaper-close-up-fingers-1246437.jpg');
