@@ -68,5 +68,6 @@ Jumbotron, a template for a simple marketing or informational website is used ht
 The example project is used as guide for building the site https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive.git
 font-awesome is used from cdn https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 hover.css is used from cdn https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
+Hash tag positioning is inspired by https://css-tricks.com/hash-tag-links-padding/
 
 **This is for educational use and possibly will be the successor of the currently hosted www.pianostudio.hu in the future.** 
