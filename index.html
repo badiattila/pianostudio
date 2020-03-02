@@ -16,31 +16,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
   <!-- Custom styles for this website -->
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+  <title>Piano Studio Kft. - English - </title>
+  <link href="./image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta name="description" content="Piano rental, tuning and repair - Piano Studio Kft." />
+  <meta name="keywords" content="Piano rental,piano tuning,piano repair,piano studio" />
+  <meta name="copyright" content="Piano Studio Kft." />
+  <meta name="author" content="Attila Badi/Piano Studio Kft." />
+  <meta name="email" content="info@pianostudio.hu" />
+
   <!-- emailjs.com scripts -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
   <script type="text/javascript">
-        (function(){
-           emailjs.init('user_etFwEOqQcbe4PMbXxH07G');
-        })();
+    (function() {
+      emailjs.init('user_etFwEOqQcbe4PMbXxH07G');
+    })();
   </script>
   <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate the contact number value
-                this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('gmail', 'trio', this);
-            });
-        }
+    window.onload = function() {
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // generate the contact number value
+        this.contact_number.value = Math.random() * 100000 | 0;
+        emailjs.sendForm('gmail', 'trio', this);
+      });
+    }
   </script>
-  
-  <title>Piano Studio Kft. - English - </title>
-	<link href="./image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<meta name="description" content="Piano rental, tuning and repair - Piano Studio Kft." />
-	<meta name="keywords" content="Piano rental,piano tuning,piano repair,piano studio" />
-	<meta name="copyright" content="Piano Studio Kft." />
-	<meta name="author" content="Attila Badi/Piano Studio Kft." />
-	<meta name="email" content="info@pianostudio.hu" />
 </head>
 
 <body>
@@ -113,10 +114,11 @@
   </main>
   <!-- Contact Form  TODO -->
   <div class="container">
-    <h2>Subscribe to our newsletter</h2>
-    <p>We will send you our latest deals and offers every month.</p>
+    <h2>Contact us </h2>
 
     <form id="contact-form">
+      <input type="hidden" name="contact_number">
+
       <div class="row">
         <div class="col">
           <label for="InputFirstName">First name</label>
@@ -136,24 +138,9 @@
         <label for="InputMessage">Message</label>
         <textarea class="form-text" id="Message" name="message"></textarea>
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="Check1">
-        <label class="form-check-label" for="Check1">I want to receive PianoStudio's monthly newsletter.</label>
-      </div>
-      <button type="submit" value="Send" class="btn btn-secondary">Subscribe</button>
+      <input type="submit" value="Send" class="btn btn-secondary">
     </form>
- ---
-    <form id="contact-form">
-        <input type="hidden" name="contact_number">
-        <label>Name</label>
-        <input type="text" name="user_name">
-        <label>Email</label>
-        <input type="email" name="user_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
- ---
+
   </div>
   <!-- Footer container -->
   <footer class="container">
