@@ -63,6 +63,23 @@ h2::before {
     margin-bottom: 0px;
 }
 
+#gmaps {
+    background-attachment: fixed;
+    background-image: url('../image/4k-wallpaper-close-up-fingers-1246437.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#map {
+    width: 80vw;
+    height: 80vh;
+}
+
 /* Opacity classes for different elements */
 .op {
     opacity: 0.8;
