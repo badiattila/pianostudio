@@ -18,12 +18,14 @@
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
 
   <title>Piano Studio Kft. - Services - </title>
-	<link href="./image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<meta name="description" content="Piano rental, tuning and repair - Piano Studio Kft." />
-	<meta name="keywords" content="Piano rental,piano tuning,piano repair,piano studio" />
-	<meta name="copyright" content="Piano Studio Kft." />
-	<meta name="author" content="Attila Badi/Piano Studio Kft." />
-	<meta name="email" content="info@pianostudio.hu" />
+  <link href="./image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta name="description" content="Piano rental, tuning and repair - Piano Studio Kft." />
+  <meta name="keywords" content="Piano rental,piano tuning,piano repair,piano studio" />
+  <meta name="copyright" content="Piano Studio Kft." />
+  <meta name="author" content="Attila Badi/Piano Studio Kft." />
+  <meta name="email" content="info@pianostudio.hu" />
+  <!-- Instagram helper js for this website -->
+  <script src="libraries/instagram-information.js"></script>
 </head>
 
 <body>
@@ -58,6 +60,21 @@
   <main role="main">
 
     <!-- Gallery -->
+    <!-- Instagram Gallery begins here -->
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div>
+          <h3 class="contact-heading uppercase text-center">View Our Instagram Gallery</h3>
+        </div>
+
+        <div class="center-form">
+          <input type="text" id="gh-username" value="octocat" oninput="fetchInstagramInformation()" />
+          <div id="instagram-pictures"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Instagram Gallery -->
+
     <div class="jumbotron" id="gallery">
       <div class="container op">
         <h1 class="display-3">Gallery</h1>
