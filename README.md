@@ -1,8 +1,10 @@
 # Piano Studio Kft. - Introduction of a Hungarian piano company  
-This web page is made for Code Institute's Stream One Project: User-Centric Frontend Development
+This web page was made for Code Institute's Stream One Project: User-Centric Frontend Development
+This web page is now updated for Code Institute's Interactive Frontend Development
+
 
 This page is ment to introduce Piano Studio Kft, a Hungarian family owned and operated pianos business.
-It focuses on the owners, services, pianos for sale and provides a contact form to mae it easy for customers to ask their questions. 
+It focuses on the owners, services, pianos for sale and provides a contact form to make it easy for customers to ask their questions. 
 
 
 ## Demo
@@ -22,6 +24,8 @@ For potential customers I want to give as much guidance on our services and prod
 3. Bootstrap 4.3.1
 4. font-awesome 4.7.0
 5. hover.css 2.1.1
+6. Google Maps API
+7. emailjs.com 
 
 
 ## Features
@@ -29,7 +33,7 @@ This site uses the native features of Bootstrap and Jumbotron Framework.
 
 
 ### Features Left to Implement
-The newsletter form will have to be better implemented, will need both visual/text and functionality improvements. 
+The contact form can be better implemented, will need visual and functionality improvements. 
 I might also include a dinamic section for piano renters to track their profile (piano rented and account status)
 
 ## Testing
@@ -38,7 +42,7 @@ The buyer user story is satisfied by having the section Pianos to Sell.
 The customer for services user story has the services section with piano tuning and restoration.
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
-Furthermore, the 'required' attribute is added to the First Name, Last Name and Email fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
+Furthermore, the 'required' attribute is added to the First Name, Last Name and Email fields, so if those fields are not filled in, the form will not submit. If all field are valid, the form will send a mail to attila.badi@gmail.com. 
 
 All links will open in a new tab using 'target="_blank"'.
 
