@@ -1,6 +1,5 @@
 # Piano Studio Kft. - Introduction of a Hungarian piano company  
-This web page was made for Code Institute's Stream One Project: User-Centric Frontend Development
-This web page is now updated for Code Institute's Interactive Frontend Development
+This web page was made for Code Institute's Stream One Project: User-Centric Frontend Development and is now updated for Code Institute's Interactive Frontend Development assesment 
 
 
 This page is ment to introduce Piano Studio Kft, a Hungarian family owned and operated pianos business.
@@ -26,20 +25,25 @@ For potential customers I want to give as much guidance on our services and prod
 5. hover.css 2.1.1
 6. Google Maps API
 7. emailjs.com 
+8. Instagram API
 
 
 ## Features
-This site uses the native features of Bootstrap and Jumbotron Framework. 
+This site uses the native features of Bootstrap and Jumbotron Framework, integrates to Google maps api, emailjs API and Instagram API. 
 
 
 ### Features Left to Implement
 The contact form can be better implemented, will need visual and functionality improvements. 
 I might also include a dinamic section for piano renters to track their profile (piano rented and account status)
+The Instagram API integration will need to be updated to use short term keys.
 
 ## Testing
 The renter user story achieved the intended outcome of introducing the service and the gallery is providing customers with a showcase of available pianos to rent.
 The buyer user story is satisfied by having the section Pianos to Sell.
 The customer for services user story has the services section with piano tuning and restoration.
+The contact form is sending out emails to attila.badi@gmail.com.
+The Google map integration shows rented piano locations.
+The Instagram API makes the gallery dinamic by showing all uploaded media.
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
 Furthermore, the 'required' attribute is added to the First Name, Last Name and Email fields, so if those fields are not filled in, the form will not submit. If all field are valid, the form will send a mail to attila.badi@gmail.com. 
@@ -73,5 +77,8 @@ The example project is used as guide for building the site https://github.com/Co
 font-awesome is used from cdn https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 hover.css is used from cdn https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
 Hash tag positioning is inspired by https://css-tricks.com/hash-tag-links-padding/
+Google maps integration uses the manuals found on the maps API intro page and course material.
+Emailjs.com integration is inspired by the code institute lectures.
+Instagram integration uses samlpe code from code institute and Instagrams own introductory how-to manuals.
 
 **This is for educational use and possibly will be the successor of the currently hosted www.pianostudio.hu in the future.** 
