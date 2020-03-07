@@ -28,7 +28,7 @@
   <script src="libraries/instagram-information.js"></script>
 </head>
 
-<body>
+<body onload="fetchInstagramInformation()">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <img class="navbar-logo" src="./image/index.png" alt="Piano Studio Kft.">
@@ -68,7 +68,6 @@
         </div>
 
         <div class="center-form">
-          <input type="text" id="gh-username" value="octocat" oninput="fetchInstagramInformation()" />
           <div id="instagram-pictures"></div>
         </div>
       </div>
