@@ -9,7 +9,7 @@ function fetchInstagramInformation(event) {
     ).then(
         function(firstResponse) {
             var userData = firstResponse[0];
-            $("#instagram-pictures").html(`<p>loaded</p>`);
+            $("#loader").html(`<p>Loaded</p>`);
         },
         function(errorResponse) {
             if (errorResponse.status === 404) {
